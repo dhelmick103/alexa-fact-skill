@@ -27,19 +27,39 @@ var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-u
  * Array containing space facts.
  */
 var FACTS = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "There are around one hundred breeds of domestic cats.",
+    "Domestic cats spend about seventy percent of the day sleeping.",
+    "The average cat has a sense of hearing that is five times as strong as the average human",
+    "The Ancient Egyptian word for cat was mau, which means to see.",
+    "Cats will talk back to you the more they are spoken to.",
+    "Cats take between twenty and forty breaths per minute.",
+    "Cats have thirty teeth.",
+    "A domestic cat can sprint to speeds around thirty miles per hour",
+    "The Jaguar is the only big cat that does not roar",
+    "Most cats do not have eyelashes.",
+    "Cats can jump up to five times their height.",
+    "The average lifespan for a domestic cat is fourteen years.",
+    "The ancestor of all domestic cats is the African Wild Cat which still exists today",
+    "The average cat has twenty-four whiskers, consisting of four horizontal rows on each side.",
+    "A group of cats is called a clowder.",
+    "A group of kittens is called a kindle.",
+    "Most cats are lactose intolerant.  Stop giving them milk or ice cream.",
+    "Cats can only sweat through their paws.",
+    "Some cats can survive falls from around sixty-five feet or higher.",
+    "Cats can make over one hundred sounds.",
+    "Cats sleep on average between sixteen and eighteen hours per day.",
+    "Cats have five toes on their front paws and four on each back paw.",
+    "In ancient Egypt, cat owners would mourne the loss of their pet by shaving their eyebrows.",
+    "Maine Coons represent the largest breed of domestic cats.",
+    "The scientific name for a hairball is bezoar.",
+    "A cat's heart rate is almost double that of the human heart at one hundred ten to one hundred forty beats per minute.",
+    "Cat ownership can reduce the risk of heart attacks and strokes by more than a third.",
+    "Adult cats only meow to communicate with humans.",
+    "Cats have over one hundred sounds in their vocal repertoire, while dogs only have ten.",
+    "Cats are unable to see directly below their noses.",
+    "Cats are believed to be the only mammals that cannot taste sweetness.",
+    "Cats have two hundred and thirty bones compared to humans which have two hundred and six.",
+    "In ancient Egypt, killing a cat was punishable by death."
 ];
 
 /**
@@ -119,4 +139,3 @@ exports.handler = function (event, context) {
     var fact = new Fact();
     fact.execute(event, context);
 };
-
